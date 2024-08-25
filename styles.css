@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+}
+
+#envelope {
+    cursor: pointer;
+}
+
+#envelope img {
+    width: 100%;
+    max-width: 300px;
+}
+
+#letter {
+    display: none;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    color: #ff4081;
+    font-size: 2.5em;
+}
+
+.intro {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
